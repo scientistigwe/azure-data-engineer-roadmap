@@ -11,7 +11,7 @@ The journal is the main progress record for this repository. It shows what I stu
 ## Program Summary
 
 This repository tracks my journey from data foundations into practical Azure data engineering. It brings together Python, SQL, Docker, data modelling, Microsoft Fabric, Databricks, Azure services, infrastructure, and portfolio-ready cloud projects.
-The goal is to prove that I can design, build, document, and explain cloud data pipelines that move data from raw ingestion to trusted analytics outputs.
+The goal is to provide evidence of cloud data pipelines that move data from raw ingestion to trusted analytics outputs, with clear design, build, documentation, and explanation.
 
 ## Target Roles
 
@@ -71,10 +71,10 @@ The goal is to prove that I can design, build, document, and explain cloud data 
 
 ## What This Repository Proves
 
-- I can build data pipelines with clear raw-to-trusted data flow.
-- I can work across Python, SQL, Spark, Fabric, Databricks, and Azure services.
-- I can document architecture, operational checks, and deployment decisions.
-- I can produce portfolio projects that demonstrate cloud data engineering judgement.
+- Data pipelines show clear raw-to-trusted data flow.
+- Project work spans Python, SQL, Spark, Fabric, Databricks, and Azure services.
+- Architecture, operational checks, and deployment decisions are documented.
+- Portfolio projects demonstrate cloud data engineering judgement.
 
 ---
 
