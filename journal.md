@@ -4,15 +4,31 @@
 
 ---
 
-## Day 1 — Set up your Azure data engineering portfolio
+## Week 1: Seed days: Setup
 
-**Phase:** Setup
+### Lesson 1: Set up your Azure data engineering portfolio
+
+| Field | Value |
+| --- | --- |
+| Lesson slug | `az-seed-day-01` |
+| Phase | Setup |
+| Saved/updated | 30 Jun 2026, 19:24 |
+| Completed tasks | 7 |
+| Lesson complete | Yes |
 
 ---
 
-## Day 2 — Python ETL basics
+## Week 2: Seed days: Foundation
 
-**Phase:** Foundation
+### Lesson 1: Python ETL basics
+
+| Field | Value |
+| --- | --- |
+| Lesson slug | `az-seed-day-02` |
+| Phase | Foundation |
+| Saved/updated | 04 Jul 2026, 10:01 |
+| Completed tasks | 4 |
+| Lesson complete | Yes |
 
 ### What I Did
 
@@ -77,5 +93,48 @@ Repo reference: foundation/src/etl.py
 - the evidence is in this repo ref path: `screenshots\foundation\python_etl_basics.png`
 
 - I will commit the actual working code, take screenshot of the output print and explain what the methods in the ETLProcessor Object is doing
+
+---
+
+### Lesson 2: SQL joins, windows, and warehouse thinking
+
+| Field | Value |
+| --- | --- |
+| Lesson slug | `az-seed-day-03` |
+| Phase | Foundation |
+| Saved/updated | 04 Jul 2026, 23:22 |
+| Completed tasks | 0 |
+| Lesson complete | In progress |
+
+### To Explore Further
+
+
+
+### My Practice Work
+
+---
+<!-- framework:solve -->
+
+## SQL joins, windows, and warehouse thinking
+**Completed:** 2026-07-04 | **Method:** SOLVE
+
+> **Scenario:** Scenario: RetailEdge's analytics team needs a weekly revenue report by product category and store region. Five analysts each write their own joins against the same raw tables and get five different totals. A shared dimensional model — one fact table, clear dimension tables, and standard window-function queries — will make every analyst's results agree.
+
+### S — Split the problem
+- Input: 
+- Raw sales tables
+
+Problem/Pain Point: 
+- analyst write different join query
+- each get different result
+
+Operation:
+- Create a shared dimensional model
+- One fact table
+- Clear dimension tables
+- Standard window-function queries
+
+Product: A shared dimensional model)
+Success: Every analyst's results agree
 
 ---
