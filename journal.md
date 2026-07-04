@@ -1,10 +1,16 @@
 # Senior Azure Data Engineer Job-Ready Learning Journal
 
-> Last updated: 2 July 2026
+> Last updated: 4 July 2026
 
 ---
 
-## Day 1 — Python ETL basics
+## Day 1 — Set up your Azure data engineering portfolio
+
+**Phase:** Setup
+
+---
+
+## Day 2 — Python ETL basics
 
 **Phase:** Foundation
 
@@ -16,7 +22,7 @@
 - **Applied:** In etl.py, I used return `sorted(self.source_folder.rglob("*.csv"))`. `pathlib.Path.rglob()` provides a more modern, object-oriented approach to file discovery than `glob.glob()`. Wrapping it with `sorted()` also ensures deterministic file processing, preventing environment-specific differences in file ordering between local and CI environments.
 - **Applied:** Ref Question 2: ETL Logging Best Practices: The minimum logging for a production ETL should capture five key events: ETL start, file extraction, transformation summary, load completion, and ETL completion or failure. Each log should include enough contextual information—such as filenames, row counts, encoding and delimiter (where applicable), rows processed, destination, execution time, and any exception details—to enable monitoring, troubleshooting, and auditing of the pipeline without overwhelming the logs.
 - **Explained:** Ref Question 3: Why Split ETL into Extract, Transform, and Load Functions: Splitting ETL into `extract`, `transform`, and `load` functions makes the pipeline easier to understand, test, debug, and maintain. In a monolithic script, if the job fails halfway through, it can be difficult to tell whether the problem came from reading the source file, applying transformation logic, or writing the output.  For example, if a CSV file has the wrong delimiter, a monolithic script may fail later during transformation with a confusing column error. By separating the ETL stages, the issue is isolated in the `extract` function, where delimiter detection and file-reading logic belong. This prevents the error from being mistaken for a transformation problem and makes the fix easier to apply without changing the rest of the pipeline.  The three-function approach also allows each stage to be reused, tested independently, and logged clearly, making the ETL process more reliable and easier to support in production.
-- **Applied:** I used SOLVE and 5-HOW approach to gain deeper  understanding of the case scenario and slice/dice questions to simplify it.
+- **Applied:** I used SOLVE and 5-HOW approach to gain deeper  understanding of the case scenario and slice/dice questions.
 
 ### To Explore Further
 
