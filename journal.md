@@ -1,6 +1,6 @@
 # Senior Azure Data Engineer Job-Ready Learning Journal
 
-> Last updated: 8 July 2026
+> Last updated: 18 July 2026
 
 ## Summary
 
@@ -11,7 +11,7 @@
 | Week | Evidence entries | Completed | Last updated |
 | --- | ---: | ---: | --- |
 | [Week 1: Seed days: Setup](#week-1-seed-days-setup) | 1 | 1 | 30 Jun 2026, 19:24 |
-| [Week 2: Seed days: Foundation](#week-2-seed-days-foundation) | 2 | 1 | 08 Jul 2026, 15:19 |
+| [Week 2: Seed days: Foundation](#week-2-seed-days-foundation) | 2 | 1 | 18 Jul 2026, 12:26 |
 
 ---
 
@@ -113,13 +113,14 @@ Repo reference: foundation/src/etl.py
 | --- | --- |
 | Lesson slug | `az-seed-day-03` |
 | Phase | Foundation |
-| Saved/updated | 08 Jul 2026, 15:19 |
+| Saved/updated | 18 Jul 2026, 12:26 |
 | Completed tasks | 0 |
 | Lesson complete | In progress |
 
 ### What I Did
 
-- **Built:** I learnt that grain of a table is the smallest meaningful unit of a table. Technically, its the identifier column which owns the table (primary key).
+- **Note:** I learnt that grain of a table is the smallest meaningful unit of a table. Technically, its the identifier column which owns the table (primary key).
+- **Applied:** CTEs - Common Text Expression is used to
 
 ### To Explore Further
 
