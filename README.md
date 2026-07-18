@@ -15,6 +15,7 @@ Quick recruiter review path — the newest 1-2 weeks of logged evidence.
 | 2026-07-18 | Daily Concept Clinic | DQ Math 01 · Data Quality Issues Foundation | [evidence/cohorts/alpha-azure-cohort/week-01/daily-concept-clinic/Screenshot-4180-.png](https://github.com/scientistigwe/azure-data-engineer-roadmap/blob/main/evidence/cohorts/alpha-azure-cohort/week-01/daily-concept-clinic/Screenshot-4180-.png) |
 | 2026-07-18 | Daily Concept Clinic | Daily Concept Clinic | Evidence for new update
 [evidence/cohorts/alpha-azure-cohort/week-01/daily-concept-clinic/Screenshot-4181-.png](https://github.com/scientistigwe/azure-data-engineer-roadmap/blob/main/evidence/cohorts/alpha-azure-cohort/week-01/daily-concept-clinic/Screenshot-4181-.png) |
+| 2026-07-18 | Daily Concept Clinic | Daily Concept Clinic | — |
 
 Full journal: [journal/index.md](journal/index.md)
 
